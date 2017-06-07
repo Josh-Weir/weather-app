@@ -79,22 +79,6 @@ html {
 .maxTemp{
   color: rgb(246, 114, 114);
 }
-.previous {
-  display: table;
-  position: absolute;
-  left : 0;
-  top: 50%;
-  font-size: 60px;
-  vertical-align: middle;
-  text-align: center;
-  -ms-transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  transform: translateY(-50%);
-  width: 120px;
-	height: 100%;
-  background: transparent;
-}
 .sun {
   font-size: 35px;
 }
@@ -112,6 +96,23 @@ html {
   width: 50%;
   text-align: center;
   float: right;
+}
+.previous {
+  display: table;
+  position: absolute;
+  left : 0;
+  top: 50%;
+  font-size: 60px;
+  vertical-align: middle;
+  text-align: center;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 120px;
+	height: 100%;
+  background: transparent;
+  cursor: pointer;
 }
 .previous:hover {
   background: rgba(0, 0, 0, 0.5)
@@ -136,6 +137,7 @@ html {
   width: 120px;
 	height: 100%;
   background: transparent;
+  cursor: pointer;
 }
 .add:hover {
   background: rgba(0, 0, 0, 0.5)
@@ -160,6 +162,7 @@ html {
   width: 120px;
 	height: 100%;
   background: transparent;
+  cursor: pointer;
 }
 .next:hover {
   background: rgba(0, 0, 0, 0.5)
